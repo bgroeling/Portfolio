@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: black;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  
+  
+  /* HEADER / NAV BAR STYLES START */
+  
+  header {
+    padding: 20px 35px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    opacity: .8;
+  }
+  
+    header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: white;
+  }
+  
+    header a {
+    text-decoration: none;
+    color: white;
+  }
+  
+    header nav {
+    margin: 7px 0;
+  }
+  
+    header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+    header nav ul li a {
+    margin: 0 25px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
+  
+  /* HEADER / NAVBAR STYLES END */
+  
+  
+/* body start */
+
+  /* STYLE ALL SECTION TAGS */
+  section {
+    padding: 150px;
+  }
+    .section-title {
+    font-size: 55px;
+    color: #fce138;
+    padding: 20px;
+    text-align: center;
+    margin: 25px auto 25px auto;
+    width: 60;
+    opacity: .8;
+    background-color: black;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+    /* all section end */
+  
+  /* HERO STYLES START */
+    .hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+    .hero-cta {
+        width: 60%;
+        margin: 3.5%;
+        color: white;
+        font-size: 18px;
+        line-height: 1.3;
+        opacity: .80;
+        background-color: black;
+        border-radius: 25px;
+        text-align: left;
+        padding: 25px;
+  }
+  
+    .hero-cta h2 {
+    font-weight: bold;
+    font-size: 55px;
+    color: #fce138;
+    text-align:center;
+  }
+  
+  /* HERO STYLES END */
+  
+  
+  /* digital-portfolio */
+  .works {
+    width: 100%;
+    margin: 0, auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+    .work {
+    margin: 25px;
+    flex: 1;
+    background: black;
+    color: white;
+  }
+  
+    .work img {
+      width: 100%;
+  }
+  
+    .work-bio {
+    padding: 25px;
+    line-height: 1.3;
+    width: 100%;
+  }
+  
+    .work-bio h3 {
+    font-size: 28px;
+    color: #fce138;
+  }
+
+  /* TRAINER STYLES END */
+  
+  /* contact START */
+  .contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* REACH OUT STYLES END */
+
+
+/* utilities */
+.flex-row {
+    display: flex;
+}
+
+.button-1 {
+    width: 33%;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    opacity: .8;
+}
+.button-1:hover {
+    opacity: .5;
+    transform: scale(.95);
+}
+.button-2 {
+
+    opacity: 1;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+}
+.button-2:hover{
+    background-color: #fce138;
+    opacity: .8
+}
+.project {
+justify-content: space-between;
+}
+.parallax {
+    background-image: url('../images/Field.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.parallax-second {
+    background-image: url('../images/Lake.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+ul {
+    list-style: none;
+}
